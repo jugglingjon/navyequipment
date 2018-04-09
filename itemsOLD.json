@@ -1,0 +1,83 @@
+{
+	"items":[
+		{
+			"title": "Self-Contained Breathing Apparatus",
+			"category": "PPE",
+			"description": "Dolor aliqua duis in ullamco et ex in ad laborum aliquip.",
+			"image":"scba.png",
+			"content":{
+				"explore":{
+					"slug":"scba",
+					"image": "scba-large.png",
+					"hotspots":[
+						{
+							"title": "Hotspot 1",
+							"x":10,
+							"y":20
+						}
+					]
+				},
+				"details":{
+					"description":"Lorem ipsum officia tempor dolor in deserunt minim mollit anim occaecat culpa in sunt officia esse irure officia enim aute reprehenderit anim laboris incididunt proident proident et quis ut consequat elit in aliqua do dolore in qui dolore in eiusmod dolore culpa minim et laboris proident occaecat tempor fugiat reprehenderit adipisicing occaecat dolore laborum enim officia culpa nulla labore ut consectetur elit ea aliquip duis est ut ut eu exercitation pariatur do id quis esse proident magna do mollit ut ut laborum pariatur nulla excepteur commodo dolor excepteur et adipisicing cupidatat aliqua id tempor reprehenderit mollit enim in laboris fugiat magna sed in nulla ut veniam id aliquip deserunt sunt deserunt non veniam cillum ad proident ut aliquip magna tempor quis pariatur ullamco veniam proident amet laboris do id dolor qui minim consectetur aliquip irure in ex amet in ex do anim ut ullamco occaecat occaecat amet amet nulla reprehenderit amet dolor consectetur exercitation cupidatat minim nisi laboris fugiat enim do elit incididunt ad deserunt nulla tempor ullamco aliqua aliquip amet sint dolore.",
+					"image":"scba.png",
+					"specs":[
+						{"spec":"Height","value":"3'"},
+						{"spec":"Width","value":"2'"}
+					]
+				}
+			}
+		},
+		{
+			"title": "Ramfan",
+			"category": "Firefighting",
+			"description": "Dolor aliqua duis in ullamco et ex in ad laborum aliquip.",
+			"image":"ramfan.png",
+			"content":{
+				"explore":{
+					"slug":"ramfan",
+					"image": "scba-large.png",
+					"hotspots":[
+						{
+							"title": "Hotspot 1",
+							"x":10,
+							"y":20
+						}
+					]
+				},
+				"details":{
+					"description":"Ut fugiat enim in magna reprehenderit ad aliquip reprehenderit nostrud velit exercitation cupidatat ad veniam nisi consequat laborum in ut qui velit sint minim velit dolore ullamco dolore consectetur dolore nostrud ea magna dolore eu sed deserunt consectetur quis tempor mollit occaecat aliquip enim commodo aliqua ea in eu consequat dolore cillum adipisicing in aliquip adipisicing culpa labore mollit dolor anim fugiat minim in id reprehenderit sed quis officia ut pariatur ex ut non est esse excepteur fugiat veniam aliquip ut irure duis velit amet eiusmod amet irure aute sunt nostrud laboris pariatur velit pariatur sit nostrud reprehenderit ut irure do voluptate consectetur commodo laborum dolor ut nisi pariatur culpa occaecat aute velit in id ut anim laboris ut ex exercitation laboris cillum voluptate aliqua mollit labore pariatur veniam ut sit tempor ea pariatur ex nostrud tempor ut reprehenderit tempor consectetur exercitation culpa do sed sunt sunt qui ut ut nulla minim non labore velit ut deserunt eiusmod sint adipisicing do tempor ea aliquip ut dolor dolore aliqua esse esse fugiat consequat mollit aliqua et ad excepteur in adipisicing.",
+					"specs":[
+						{"spec":"Height","value":"3'"},
+						{"spec":"Width","value":"2'"}
+					]
+				}
+			}
+		},
+		{
+			"title": "Box Fan",
+			"category": "Firefighting",
+			"description": "Dolor aliqua duis in ullamco et ex in ad laborum aliquip.",
+			"image":"boxfan.png",
+			"content":{
+				"explore":{
+					"slug":"boxfan",
+					"image": "scba-large.png",
+					"hotspots":[
+						{
+							"title": "Hotspot 1",
+							"x":10,
+							"y":20
+						}
+					]
+				},
+				"details":{
+					"description":"Veniam do labore quis ullamco consequat nostrud magna irure eiusmod dolor irure cillum voluptate aute excepteur dolore laboris proident adipisicing dolore dolor aliquip nulla labore et mollit duis ex amet quis dolor duis culpa minim dolor excepteur id ad commodo duis proident in dolore enim velit ad in ut id nulla commodo amet in tempor dolore proident magna dolore nisi magna dolore qui velit fugiat non velit ea ad tempor sint est id dolore ut ut labore exercitation aliquip minim veniam qui elit veniam ea reprehenderit cillum in ullamco et tempor velit anim ad id ea elit nulla magna incididunt laboris nisi dolore in in ex irure consequat ex ut amet eu excepteur excepteur sint nulla laborum dolore reprehenderit commodo pariatur consequat occaecat sed enim aliqua occaecat qui velit labore dolore excepteur ut aliquip velit.",
+					"specs":[
+						{"spec":"Height","value":"3'"},
+						{"spec":"Width","value":"2'"}
+					]
+				}
+			}
+		}
+	]
+}

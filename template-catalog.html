@@ -1,0 +1,17 @@
+{{#items}}
+<div class="catalog-item" data-index="{{index}}">
+	<div class="catalog-item-top">
+		<img src="media/{{slug}}/image.png" alt="#" class="catalog-item-image">
+		<a href="#" class="catalog-item-info mdi mdi-info-outline"></a>
+		<a href="#" class="catalog-item-favorite mdi mdi-star-border"></a>
+	</div>
+	<div class="catalog-item-content">
+		<span class="catalog-item-category">{{category}}</span>
+		<h3 class="catalog-item-title">{{title}}</h3>
+		<div class="catalog-item-description">
+			{{description}}
+		</div>
+		<a href="#" class="catalog-item-info-close mdi mdi-close"></a>
+	</div>
+</div>
+{{/items}}

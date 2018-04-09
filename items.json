@@ -1,0 +1,918 @@
+{
+	"items": [{
+			"title": "Ramfan",
+			"category": "Desmoking",
+			"description": "Used in desmoking operations, for cooling spaces or personnel, and  bulkhead cooling or fire boundaries.",
+			"slug": "ramfan",
+			"content": {
+				"details": {
+					"description": "Ramfans are water-driven, high-velocity blowers used for desmoking operations, cooling spaces/personnel and for bulkhead cooling for fire boundaries via using a water mister attachment.  Provides air at up to 2,000 cfpm with 10 inch ducts.  Powered by a water supply from the firemain or portable pumps.  Operates with an inlet water pressure from 50 to 180 Pounds per Square Inch Gauge (PSING) and approved for use in explosive atmospheres. Requires a water discharge overboard connection or a hose run to a location for discharge overboard from the weather decks. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "35 lbs"
+						},
+						{
+							"spec": "Height",
+							"value": "18 in"
+						},
+						{
+							"spec": "Width",
+							"value": "12 in"
+						},
+						{
+							"spec": "Depth",
+							"value": "18 in"
+						},
+						{
+							"spec": "Volume",
+							"value": "5,000 in3"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "Ramfans are Low-velocity blowers",
+					"answers": ["True", "False*"]
+				},
+				{
+					"question": "Ramfans are used for Desmoking Operations",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "How many cfpm does the Ramfan provide?",
+					"answers": ["2,000*", "1,000", "1,500", "2,250"]
+				},
+				{
+					"question": "The Ramfan is approved for use in explosive atmospheres",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "What does the Ranfan require to discharge water overboard?",
+					"answers": ["Hose run*", "Flexible piping"]
+				}
+			]
+		},
+		{
+			"title": "Box Fan",
+			"category": "Desmoking",
+			"description": "Used without any ventilation in smoke clearance operations.",
+			"slug": "boxfan",
+			"content": {
+				"explore": true,
+				"details": {
+					"description": "Box Fans are free-standing 3,200 cfpm used in smoke clearing operations.  Powered by 115 volts electrical power.  A 50-foot electric cable is provided with the unit.  Can be hung or placed in a doorway or over a trunk or hatch opening using telescopic bars. For use without any ventilation, and supplements existing portable fans by providing a rapid desmoking capability of spaces near the weatherdeck. Can be used in conjunction with installed fans or the Smoke Ejection System when clearing smoke from the DC deck.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "51 lbs"
+						},
+						{
+							"spec": "Height",
+							"value": "18 3/4 in"
+						},
+						{
+							"spec": "Width",
+							"value": "19 1/4 in"
+						},
+						{
+							"spec": "Depth",
+							"value": "13 in"
+						},
+						{
+							"spec": "Volume",
+							"value": "4,692 in3"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "Box Fans can be used in conjunction with installed fans",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "What voltage of electricity powers the Box Fan?",
+					"answers": ["115*", "120", "175", "110"]
+				},
+				{
+					"question": "How many feet of electrical cable is provided with the Box fan?",
+					"answers": ["50*", "75", "25", "110"]
+				},
+				{
+					"question": "The Box Fan is for use without any ventilation",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "Smoke Curtain",
+			"category": "Desmoking",
+			"description": "Hung in passageways, doorways, watertight doors, and hatches to controlling the spread of smoke and gases during fire.",
+			"slug": "smokecurtain",
+			"content": {
+				"details": {
+					"description": "Smoke Curtains are two-panel, flame-resistant curtains hung in passageway openings, doorways, watertight doors and hatches in compartments or passageways to control the spread of smoke and gases during fire.  Curtains held in place with smoke clamps at the corners and at intervals along the edges to provide a good seal that limits the spread of smoke.   ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "13.8 lbs"
+						},
+						{
+							"spec": "Heigth",
+							"value": "78 in"
+						},
+						{
+							"spec": "Width",
+							"value": "42 in"
+						},
+						{
+							"spec": "Volume",
+							"value": "504 in3 (folded)"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "How many panels does a Smoke Curtain have?",
+					"answers": ["Two*", "Three", "Four", "One"]
+				},
+				{
+					"question": "Smoke Curtains are flame resistant",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "Desmoking Assembly Tubes",
+			"category": "Desmoking",
+			"description": "Used  in smoke clearance operations and attach to water-driven fans to extend the vent ducting.",
+			"slug": "desmokingtubes",
+			"content": {
+				"details": {
+					"description": "Desmoking Assembly Tubes are portable, flexible air duct hose assemblies used in desmoking with the Water-Driven Fan and attached to the ducting adapter on each end.  Fitted with one female and one male steel, zinc-plated self-locking couplings. The Desmoking Assembly Tubes can also be joined between the ends of the vent ducting to make a longer run. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "21 lbs each"
+						},
+						{
+							"spec": "Length (expanded)",
+							"value": "15 ft"
+						},
+						{
+							"spec": "Length (compressed)",
+							"value": "32 in"
+						},
+						{
+							"spec": "Volume",
+							"value": "3,000 in3"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "How many panels does a Smoke Curtain have?",
+					"answers": ["Two*", "Three", "Four", "One"]
+				},
+				{
+					"question": "Smoke Curtains are flame resistant",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "What are Smoke Curtains held in place with?",
+					"answers": ["Smoke clamps*", "Binder clamps", "Duct tape", "Rivets"]
+				},
+				{
+					"question": "Smoke Curtains are used control the spread of smoke and gases during fire",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "Portable Submersible Pump",
+			"category": "Dewatering",
+			"description": "Used to provide a means of dewatering compartments and tanks aboard ship.",
+			"slug": "psp",
+			"content": {
+				"details": {
+					"description": "Portable Submersible Pumps are high-speed centrifugal pump used to dewater compartments and tanks aboard ship.  It is self-priming. The pump delivers 140 gpm at a 70-foot static head or 180 gpm at a 50-foot static head with a maximum lift of 16 feet. The submersible pump can be rigged and operated in single or tandem assemblies. Rigged in tandem, the second pump can be out of the water if the first pump is in the water taking suction for cooling water. ",
+					"specs": [{
+							"spec": "Weight (aluminum pump)",
+							"value": "146 3/4 lbs "
+						},
+						{
+							"spec": "Weight (bronze pump)",
+							"value": "188 3/4 lbs"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "Portable Submersible Pumps are used to dewater land based compartments and tanks",
+					"answers": ["True", "False*"]
+				},
+				{
+					"question": "Portable Submersible Pumps are self-priming",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "Peri-Jet Eductor",
+			"category": "Dewatering",
+			"description": "Used in dewatering operations off the firemain to remove water and small debris from flooded spaces.",
+			"slug": "pje",
+			"content": {
+				"details": {
+					"description": "Peri-Jet Eductors are used in dewatering operations off the firemain or with a P-100 pump to remove water and small debris from flooded spaces. Also used in engineering spaces to augment the main drainage system or other large compartments with significant flooding. Valuable for pumping out compartments with fuels since operation involves no fire or explosive hazard. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "35 lbs"
+						},
+						{
+							"spec": "Height",
+							"value": "31 in"
+						},
+						{
+							"spec": "Base",
+							"value": "13 1/2 in"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "Portable Submersible Pumps are used to dewater land based compartments and tanks",
+					"answers": ["True", "False*"]
+				},
+				{
+					"question": "Portable Submersible Pumps are self-priming",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "How many gpm with a 70-foot static head does the Portable Submersible Pump provide?",
+					"answers": ["140*", "120", "160", "200"]
+				},
+				{
+					"question": "Portable Submersible Pumps are submersible",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "Portable Submersible Pumps can be rigged and operated in single or tandem assemblies",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "P-100 Champion Fire Pump",
+			"category": "Dewatering",
+			"description": "Diesel-engine driven portable pump used for firefighting and dewatering functions aboard ships. ",
+			"slug": "p100",
+			"content": {
+				"details": {
+					"description": "P-100 Champion Fire Pumps are commercial, air-cooled diesel-engine driven portable pumps designed for firefighting and limited dewatering functions aboard ships. They consists of an engine, centrifugal pump, exhaust primer, discharge valve, rope-recoil start, attached 1.45 gallon fuel tank and a compound pressure gage. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "165 lbs"
+						},
+						{
+							"spec": "Height",
+							"value": "24 1/2 in"
+						},
+						{
+							"spec": "Width",
+							"value": "23 1/2 in"
+						},
+						{
+							"spec": "Depth",
+							"value": "21 in"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "Peri-Jet Eductors are used in dewatering operations",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "What are Peri-Jet Eductors epically valuable for?",
+					"answers": ["Pumping out compartments with fuels*", "Removing large debris"]
+				},
+				{
+					"question": "The operation of Peri-Jet Eductors involves an acceptable level of explosive hazard",
+					"answers": ["True", "False*"]
+				}
+			]
+		},
+		{
+			"title": "CO2 Extinguisher",
+			"category": "Fire Extinguishers",
+			"description": "Used on flammable liquid fires and to extinguish fires involving electrical equipment.",
+			"slug": "c02ext",
+			"content": {
+				"details": {
+					"description": "Carbon dioxide (CO2) extinguisher approved for shipboard use. Compartments normally outfitted with portable CO2 extinguishers are shops, repair stations, flight deck catwalks, compartments containing electrical motors, switchboards and panels, electronic and navigational areas, weapons cleaning and fire control areas, galleys and machinery spaces. ",
+					"specs": [
+
+					]
+				}
+			}
+		},
+		{
+			"title": "PKP Extinguisher",
+			"category": "Fire Extinguishers",
+			"description": "For use on fires involving flammable or combustible liquids.",
+			"slug": "pkp",
+			"content": {
+				"details": {
+					"description": "PKP Extinguishers are cartridge-operated with the CO2 expellant gas contained in a small gas pressure cartridge. The CO2 cartridge is mounted on the outside of the extinguisher shell. Intended for use primarily on class B fires (flammable/combustible liquids). The chemical discharge should be aimed at the base of the flames and applied in a rapid side to side sweeping motion chasing the flames across the surface of the liquid. In confined spaces, it is important that the dry chemical be discharged in short bursts as necessary. ",
+					"specs": [
+
+					]
+				}
+			},
+			"quiz": [{
+					"question": "PKP Extinguishers have the CO2 cartridge mounted on the inside",
+					"answers": ["True ", "False*"]
+				},
+				{
+					"question": "PKP Extinguishers are intended for use primarily on class B fires",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "In confined spaces the PKP Extinguishers should be discharged in short bursts",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "AFFF Extinguisher",
+			"category": "Fire Extinguishers",
+			"description": "For use on solid combustible materials fires that are also highly effective on flammable liquid fires.",
+			"slug": "afff",
+			"content": {
+				"details": {
+					"description": "AFFF Extinguishers are used to vapor secure small fuel spills to prevent a fire, extinguish small class B fires (including a deep fat fryer fire), and extinguish small class A fires and for use in standing fire watch during hotwork. Typically located throughout submarines and at Damage Control Repair Stations, near large pulper installations and near deep fat fryers on surface ships.  ",
+					"specs": [
+
+					]
+				}
+			},
+			"quiz": [{
+					"question": "AFFF Extinguishers are used to vapor secure small class B fires including deep fat fryer fires",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "AFFF Extinguishers are used to vapor secure small class A fires ",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "Jubilee Patch",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used in repairing damaged piping to stop or slow down a leak. ",
+			"slug": "jubilee",
+			"content": {
+				"details": {
+					"description": "Jubilee Patches are used to repair damaged piping, stop or slow down a leak with the ability to hold pressures greater than 100 psi.  Made for specific size piping for quick application. ",
+					"specs": [
+						"N/A"
+					]
+				}
+			},
+			"quiz": [{
+					"question": "Jubilee Patches can hold pressures greater than 100 psi",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "Jubilee Patches are made for specific size piping for quick application",
+					"answers": ["True*", "False"]
+				}
+			]
+		},
+		{
+			"title": "Half Hatchet",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used in shoring, plugging, and pipe patching operations and have a beveled slot for drawing nails.",
+			"slug": "halfhatchet",
+			"content": {
+				"details": {
+					"description": "Half Hatchets are used for drawing nails, shoring, plugging and pipe patching operations. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "2.1 to 2.6 lbs"
+						},
+						{
+							"spec": "Length",
+							"value": "14 in"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Wood Plug",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Conical, square-ended plugs used to repair small holes.",
+			"slug": "woodplug",
+			"content": {
+				"details": {
+					"description": "Wooden Plugs are used to repair small holes.  They come in 4 sizes and are made of soft wood and are especially effective in small holes. Combinations of various size plugs may be used, if needed, to get better conformation with the shape of the hole. ",
+					"specs": [{
+						"spec": "Dimensions (four sizes available)",
+						"value": "1 x 0 x 3 in, 2 x 0 x 4 in, 3 x 0 x 8 in, and 5 x 1 x 10 in"
+					}]
+				}
+			}
+		},
+		{
+			"title": "Wood Wedges",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used to support shoring or to plug holes. ",
+			"slug": "woodwedge",
+			"content": {
+				"details": {
+					"description": "Wood Wedges are wooden blocks, triangular on the sides and rectangular on the butt end, made of wood, shaped as needed to support shoring or to plug holes. ",
+					"specs": [
+						"N/A"
+					]
+				}
+			}
+		},
+		{
+			"title": "Hacksaw",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used to cut metal, pipe or bolts. They have a C-shaped frame that holds a blade under tension and a pistol grip handle.",
+			"slug": "hacksaw",
+			"content": {
+				"details": {
+					"description": "Hacksaws are used to cut metal, pipe or bolts. Adjustable to fit either 10- or 12-inch blades with four 90-degree blade positions that are tensioned by a wing nut. ",
+					"specs": [
+						"N/A"
+					]
+				}
+			}
+		},
+		{
+			"title": "Wooden Shoring Beams",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used to support and strengthen weakened decks, hatches, bulkheads and overheads.",
+			"slug": "woodenshoring",
+			"content": {
+				"details": {
+					"description": "Wooden Shoring Beams are used to support and strengthen weakened decks, hatches, bulkheads and overheads.  The 2-foot cut off end pieces can be retained for strong-backs which are used to distribute pressure along a deck or bulkhead.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "53.2 lbs"
+						},
+						{
+							"spec": "Height",
+							"value": "4 in"
+						},
+						{
+							"spec": "Width",
+							"value": "4 in"
+						},
+						{
+							"spec": "Length",
+							"value": "12 ft"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Steel Shores",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Adjustable steel shores rigged to support decks, bulkheads and overheads. ",
+			"slug": "steelshoring",
+			"content": {
+				"details": {
+					"description": "Steel Shores are used/rigged to support decks, bulkheads and overheads. When not extended, the 6- to 11-foot shore supports up to 20,000 pounds, and when extended up to 11 feet, it supports 6,000 pounds. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "40 lbs"
+						},
+						{
+							"spec": "Height",
+							"value": "4 in"
+						},
+						{
+							"spec": "Width",
+							"value": "4 in"
+						},
+						{
+							"spec": "Length",
+							"value": "6-11 ft"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Maul",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used to drive plugs and wedges into holes and cracks in piping and openings as well as for driving wedges into shoring structures.",
+			"slug": "maul",
+			"content": {
+				"details": {
+					"description": "Mauls are hand hammers with one flat striking surface and one wedge-shaped end used to drive plugs/wedges into holes and cracks in piping/openings and for driving wedges into shoring structures. Also used by the shoring watch for pounding shoring wedges and braces back into place should they become lose.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "6.7 lbs"
+						},
+						{
+							"spec": "Length",
+							"value": "32 in"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Oakum",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used in pipe patching operations as caulking or as a gasket when applying soft patches.",
+			"slug": "oakum",
+			"content": {
+				"details": {
+					"description": "Oakum are highly flammable short lengths of oiled or tarred shredded rope or hemp fiber for use in caulking or packing leaking joints, in pipe patching and plugging or as a gasket when applying soft patches. Used in plugging operations to plug holes and wrap around a plug or wedge prior to inserting into a split seam or crack in damaged decks, bulkheads and overheads. ",
+					"specs": [
+						"N/A"
+					]
+				}
+			}
+		},
+		{
+			"title": "Hand Saw",
+			"category": "Pipe Patching, Plugging, & Shoring",
+			"description": "Used to cut wooden plugs and wedges to sizes that will fit into irregular openings in the hull or deck.",
+			"slug": "handsaw",
+			"content": {
+				"details": {
+					"description": "Hand Saws are used to cut plugs and wedges to sizes that will fit into irregular openings in the hull or deck. 15 inches in length, approximately 1.5 pounds, with a wooden handle secured to a wide, slightly tapered, toothed steel blade that will cut damp or wet wood. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "1.5 lbs"
+						},
+						{
+							"spec": "Length",
+							"value": "15 in"
+						},
+						{
+							"spec": "Volume",
+							"value": "60.0 in3"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Emergency Escape Breathing Device (EEBD)",
+			"category": "PPE",
+			"description": "Used for escaping areas with hazardous conditions such as fire, smoke, poisonous gases etc.",
+			"slug": "eebd",
+			"content": {
+				"details": {
+					"description": "Emergency Escape Breathing Devices (EEBD) are capable of being donned in less than 10 seconds.  The Ocenco M-20.2 compressed oxygen EEBD will operate for 10 minutes after it is activated by unlatching the case, pulling out the unit, and inserting the mouthpiece and attaching nose clip.  The attached hood can be donned at any time during the escape. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "3.1 lbs"
+						},
+						{
+							"spec": "Dimensions",
+							"value": "6.8 x 6.8 x 3 in "
+						},
+						{
+							"spec": "Typical performance duration",
+							"value": "15-32 mins"
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "Emergency Escape Breathing Devices can be donned in less than how many seconds?",
+					"answers": ["10*", "3", "60", "20"]
+				},
+				{
+					"question": "How many minutes do Emergency Escape Breathing Devices operate once activated?",
+					"answers": ["10*", "5", "15", "4"]
+				}
+			]
+		},
+		{
+			"title": "Self-Contained Breathing Apparatus (SCBA)",
+			"category": "PPE",
+			"description": "Provides the firefighter with air for breathing while in a fire or another hazardous environment.",
+			"slug": "scba",
+			"content": {
+				"explore": true,
+				"details": {
+					"description": "The Self-Contained Breathing Apparatus (SCBA) provides the firefighter with air for breathing while fighting a fire or in another hazardous environment. It consists of a composite cylinder for high pressure (4,500 psi) air storage and regulators to reduce air pressure to useable levels.",
+					"specs": [
+
+					]
+				}
+			}
+		},
+		{
+			"title": "Fireman's Boots",
+			"category": "PPE",
+			"description": "Used to protect the feet and are fabricated from black rubber with insulated soles and non-skid treads to prevent slipping.",
+			"slug": "firemanboots",
+			"content": {
+				"details": {
+					"description": "Fireman's Boots are worn by damage control repair party personnel, including the repair electricians and firefighting personnel, for protection of the feet in emergency evolutions.  Made of black rubber with insulated soles and non-skid aggressive treads on the bottom to prevent slipping on wet or oily decks. They have steel toes and puncture proof steel insoles, and some designs have shin guards. The knee length boots have loop tabs to aid in pulling them on quickly.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "6.5 to 6.9 lbs"
+						},
+						{
+							"spec": "Height",
+							"value": "18 in"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Fireman's Helmet",
+			"category": "PPE",
+			"description": "Used to protect the head, neck and face from short duration flame (flash) exposure, heat, fluid spray and falling objects.",
+			"slug": "firemanhelmet",
+			"content": {
+				"details": {
+					"description": "Fireman's Helmets are used by damage control personnel to protect the head, neck and face from short duration flame (flash) exposure, heat, fluid spray and falling objects. The helmet shell is made from a special woven heat-resistant fiberglass design. The ear/neck protector chin strap provides protection against heat and flash for the neck and ears. A chin strap is on the protector to ensure the protector stays close to the wearers head.  This heat and flash protection is enhanced by wearing a firefighter’s hood beneath the helmet. The helmet has a wide brim that extends at the back to protect the firefighter’s neck and collar from hot objects or water and falling debris. It has a fold down plastic shield to protect the eyes from heat flash and direct bursts of straight stream water in firefighting and flooding evolutions. ",
+					"specs": [{
+						"spec": "Weight",
+						"value": "3 lbs"
+					}]
+				}
+			}
+		},
+		{
+			"title": "Flash Gloves",
+			"category": "PPE",
+			"description": "Used to protect the hands and forearms from exposure to a flash fire.",
+			"slug": "flashgloves",
+			"content": {
+				"details": {
+					"description": "Flash Gloves are anti-flash, fire resistant cotton gloves worn by personnel to protect the hands and forearms from exposure to a flash fire so that the person can egress from a casualty space. This helps to protect personnel from transient, elevated air temperatures resulting from the use of high explosive weapons flash burn threats caused by fire in combat action.",
+					"specs": [
+						"N/A"
+					]
+				}
+			}
+		},
+		{
+			"title": "Flash Hood",
+			"category": "PPE",
+			"description": "Protect personnel from transient, elevated air temperatures.",
+			"slug": "flashhood",
+			"content": {
+				"details": {
+					"description": "Flash Hoods protect personnel from transient, elevated air temperatures resulting from the use of high explosive weapons flash burn threats caused by fire in combat action.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "4 oz"
+						},
+						{
+							"spec": "Length",
+							"value": "18 in "
+						},
+						{
+							"spec": "Width",
+							"value": "9 in"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Fireman's Gloves",
+			"category": "PPE",
+			"description": "Used to protect the hands from heat, short duration flame (flash), and abrasions.",
+			"slug": "firemangloves",
+			"content": {
+				"details": {
+					"description": "Fireman's Gloves are five finger cut, leather glove with a knit wristlet comprised of an outer shell, moisture barrier and thermal liner for protection against heat, short duration flame (flash), abrasions, tears and punctures. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "2.2 to 2.5 lbs"
+						},
+						{
+							"spec": "Length",
+							"value": "9 in"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Fireman's Hood",
+			"category": "PPE",
+			"description": "Used to protect the head, ears, neck and face, except the eyes, from heat and short duration flash.",
+			"slug": "firemanhood",
+			"content": {
+				"details": {
+					"description": "Fireman's Hood are large, flared bib worn as part of the firefighting ensemble (FFE), the hood protects the head, ears, neck and face, except the eyes, from heat and short duration flash.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "4 oz"
+						},
+						{
+							"spec": "Length",
+							"value": "22 in "
+						},
+						{
+							"spec": "Width",
+							"value": "9 in"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Wye-Gate",
+			"category": "Space Access",
+			"description": "Used to divide a hose line into two or more lines.",
+			"slug": "wyegate",
+			"content": {
+				"details": {
+					"description": "Wye-Gates are bronze 2-way hose connectors used to direct material from one source to multiple destinations in vacuum conveying systems. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "11 lbs"
+						},
+						{
+							"spec": "Volume",
+							"value": "185.9 in3"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Naval Firefighter’s Thermal Imager (NFTI)",
+			"category": "Space Access",
+			"description": "Thermographic camera used in firefighting.",
+			"slug": "nfti",
+			"content": {
+				"details": {
+					"description": "Naval Firefighter’s Thermal Imager (NFTI) are thermographic cameras used in firefighting.  Rendering infrared radiation as visible light, NFTI cameras allow firefighters to see areas of heat through smoke, darkness, or heat-permeable barriers. They are constructed using heat- and water-resistant housings, and ruggedized to withstand the hazards of fireground operations.  The thermal imager is equipped with two easy to use and adjustable “camcorder style” handstraps on either side of the camera that fits firefighting gloves. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "4.1 lbs "
+						},
+						{
+							"spec": "Dimensions",
+							"value": "4.5 in x 11.4 in "
+						}
+					]
+				}
+			},
+			"quiz": [{
+					"question": "The Naval Firefighter’s Thermal Imager allows firefights to see through bulkheads",
+					"answers": ["True", "False*"]
+				},
+				{
+					"question": "Naval Firefighter’s Thermal Imagers are not water resistant",
+					"answers": ["True", "False*"]
+				},
+				{
+					"question": "How many pounds does the Naval Firefighter’s Thermal Imager weigh?",
+					"answers": ["4.1*", "6.2", "3.5", "12"]
+				}
+			]
+		},
+		{
+			"title": "Firehose",
+			"category": "Space Access",
+			"description": "Used for interior firefighting hose runs, supplying water to the RAM FAN, and as a discharge hose.",
+			"slug": "firehose",
+			"content": {
+				"details": {
+					"description": "Firehoses are used for firefighting to supplying water to the RAM FAN and as a discharge hose. Also used to actuate the 1 1/2-inch inlet eductor and supply water to the AFFF in-line eductor. The 1 3/4-inch by 50-foot hose is an optional alternative for the 1 1/2-inch by 50-foot hose.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "25 lbs "
+						},
+						{
+							"spec": "Volume",
+							"value": "1772 in3"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "AFFF Vari-nozzle",
+			"category": "Space Access",
+			"description": "Used to apply a combination of fog and straight streams designed for more efficiency with AFFF or water on-board ships. ",
+			"slug": "varinozzle",
+			"content": {
+				"details": {
+					"description": "AFFF Vari-nozzles are variable pattern nozzles used when applying AFFF on Class Bravo fires as well as for fighting all classes of fires, cooling and personnel protection. Fitted with a pistol grip and provides for fog patterns from narrow angle fog to wide angle fog and solid stream. Nozzle attaches to a 1 1/2-inch fire hose for firefighting, or it can be used with an AFFF inline eductor. ",
+					"specs": [{
+						"spec": "Weight",
+						"value": "9 lbs "
+					}]
+				}
+			},
+			"quiz": [{
+					"question": "AFFF Vari-nozzles are used for fighting all classes of fires",
+					"answers": ["True*", "False"]
+				},
+				{
+					"question": "What size hose does the AFFF Vari-nozzle attach to?",
+					"answers": ["1 ½ inch*", "3.5 inch", "2.5 inch", "1.75 inch"]
+				}
+			]
+		},
+		{
+			"title": "Fire Hose Nozzle",
+			"category": "Space Access",
+			"description": "All purpose three-position fire hose nozzles with a throw handle for shut, fog, or solid stream positions.",
+			"slug": "firehosenozzle",
+			"content": {
+				"details": {
+					"description": "Fire Hose Nozzles are three-position, all-purpose nozzles (APN) with a throw handle for shut, fog or solid stream positions. Also used with the 4-foot AFFF applicator for low-velocity fog patterns and has a removable nozzle tip for inserting the AFFF applicator.",
+					"specs": [{
+						"spec": "Weight",
+						"value": "10 lbs "
+					}]
+				}
+			}
+		},
+		{
+			"title": "Spanner Wrench",
+			"category": "Space Access",
+			"description": "Swivel hook adjustable steel wrenches used to match hose coupling fittings. ",
+			"slug": "spanner",
+			"content": {
+				"details": {
+					"description": "Spanner Wrenches are swivel hook adjustable steel wrenches used to match hose coupling fittings. Provided in many sizes to tighten or loosen connections.",
+					"specs": [{
+							"spec": "Weight",
+							"value": "1.3 lbs, 2 lbs"
+						},
+						{
+							"spec": "Volume",
+							"value": "3.0, 6.7 in3"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Axe",
+			"category": "Space Access",
+			"description": "Pick-shaped pointed poll opposite a cutting edge.",
+			"slug": "axe",
+			"content": {
+				"details": {
+					"description": "Axes are pick-shaped pointed poll opposite a cutting edge and in a vivid color to make it easily visible during an emergency.",
+					"specs": [
+						"TBD"
+					]
+				}
+			}
+		},
+		{
+			"title": "Bolt Cutter",
+			"category": "Space Access",
+			"description": "Used to cut locks for entering storerooms during an emergency or to cut expanded metal wire cage material.",
+			"slug": "boltcutter",
+			"content": {
+				"details": {
+					"description": "Bolt Cutters are forged steel cutting tools used to cut locks for entering storerooms during an emergency or to cut expanded metal wire cage material.  ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "7 lbs "
+						},
+						{
+							"spec": "Length",
+							"value": "24 in"
+						}
+					]
+				}
+			}
+		},
+		{
+			"title": "Haligan Tool",
+			"category": "Space Access",
+			"description": "Used in firefighting and damage control operations by personnel performing access functions such as prying, pounding, leverage or cutting. ",
+			"slug": "haligan",
+			"content": {
+				"details": {
+					"description": "Haligan Tools are used to gain access into aircraft and can be used to cut into vent ducts. They can also be used during the overhaul phase in firefighting and to gain access for cooling Class Alpha fire materials or to break apart and remove debris. The head and claw is drop forged from high alloy steel for maximum strength and durability. The duckbill end is 6 1/2 inches long and has a 1 1/4-inch cutting edge. The opposite end has a sharp, curved spike used for puncturing metal structures or opening locks. The claw end is designed for leverage and prying. ",
+					"specs": [{
+							"spec": "Weight",
+							"value": "12 lbs "
+						},
+						{
+							"spec": "Length",
+							"value": "30 in"
+						}
+					]
+				}
+			}
+		}
+	]
+}

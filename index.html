@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Framework Styles -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/material-icons.min.css">
+
+	<!-- Custom Styles -->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+	<header>
+		<div class="title-bar">
+			<h1>Equipment Explorer</h1>
+			<a href="#" class="screen screen-content back-btn btn nav-link" data-to="screen-catalog"><i class="mdi mdi-chevron-left"></i>Back</a>
+		</div>
+		<div class="filter-bar">
+			<div class="screen-catalog screen filter-category-wrapper" style="display:block;">
+				<select class="filter-category">
+					<option value="">All Equipment</option>
+				</select>
+			</div>
+			
+			<div class="filter-search screen screen-catalog" style="display:block;">
+				<input type="text" class="filter-search-box">
+			</div>
+
+			<div class="screen screen-content content-tabs">
+				
+			</div>
+		</div>
+	</header>
+
+	<div class="tab-bar screen screen-catalog" style="display:block;">
+		<input id="catalog-set-all" type="radio" name="catalog-set" value="" checked=""><label class="pill pill-first"for="catalog-set-all">All</label><input id="catalog-set-favorites" type="radio" name="catalog-set" value="favorite"><label class="pill"for="catalog-set-favorites">Favorites</label><input id="catalog-set-history" type="radio" name="catalog-set" value="history"><label class="pill pill-last" for="catalog-set-history">History</label>
+	</div>
+	
+	<div class="catalog container screen screen-catalog" style="display:block;">
+
+	</div>
+
+	<div class="screen screen-content ">
+		
+
+		<div class="content-details content container">
+
+		</div>
+
+		<div class="content-explore content">
+
+		</div>
+
+		<div class="content-quiz content">
+			
+		</div>
+		
+	</div>
+
+
+	<!-- Framework Scripts -->
+	<script src="js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="js/vendor/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/vendor/mustache.min.js"></script>
+	<script src="js/vendor/isotope.pkgd.min.js"></script>
+	<script src="https://threejs.org/build/three.js"></script>
+
+	<script src="js/vendor/inflate.min.js"></script>
+    <script src="js/vendor/OrbitControls.js"></script>
+  <!--   --><script src="js/vendor/DDSLoader.js"></script>
+    <script src="js/vendor/MTLLoader.js"></script>
+    <script src="js/vendor/OBJLoader.js"></script> 
+    <script src="js/vendor/Colladaloader.js"></script>
+
+	<!-- Custom Scripts -->
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

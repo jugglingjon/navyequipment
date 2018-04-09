@@ -1,0 +1,34 @@
+<div class="container">
+	<div class="row">
+		<div class="details-description col-md-8">
+			<h1>{{title}}</h1>
+			{{content.details.description}}
+		</div>
+		<div class="col-md-4">
+			<div class="details-specs">
+				<div class="details-specs-image">
+					<h3>Specs</h3>
+					<img src="media/{{slug}}/image.png">
+				</div>
+				
+				<div class="details-specs-table">
+			
+					<table>
+						{{#content.details.specs}}
+						<tr>
+							<td>
+								{{spec}}
+							</td>
+							<td>
+								{{value}}
+							</td>
+						</tr>
+						{{/content.details.specs}}
+					</table>
+				</div>
+			</div>
+				
+			
+		</div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl Ramfan_M
+Ns 62.745098
+Ka 0.500000 0.500000 0.500000
+Kd 0.800000 0.800000 0.800000
+Ks 0.250000 0.250000 0.250000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 6
+map_Kd ramfan_texture_diffuse.jpg
+map_Ks ramfan_texture_specular.jpg
+map_d ramfan_texture_transparency.jpg

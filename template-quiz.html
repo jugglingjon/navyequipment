@@ -1,0 +1,21 @@
+<div class="container">
+	<div class="row">
+		<div class="details-description col-md-8 offset-md-2 quiz-question">
+			<h1>{{question}}</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8 offset-md-2 quiz-answers">
+			<div class="row">
+			{{#answers}}
+				<div class="col-md-6 quiz-answer"><a href="#">{{.}}</a></div>
+			{{/answers}}
+			</div>
+		</div>
+	</div>
+	<div class="quiz-progress">
+		{{#progress}}
+			<div class="quiz-progress-dot quiz-progress-dot-{{.}}"></div>
+		{{/progress}}
+	</div>
+</div>
