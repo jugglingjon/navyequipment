@@ -292,6 +292,11 @@ header .filter-bar .filter-search::before {
     width: calc(100% - 50px);
   }
 }
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .catalog .catalog-item {
+    width: calc(33.333% - 30px);
+  }
+}
 .catalog .catalog-item .catalog-item-top {
   padding: 24px 24px 0 24px;
   height: 140px;

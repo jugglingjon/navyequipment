@@ -35,6 +35,7 @@ Examples:
 @darkBlue: #111920;
 @blue: #1F2C39;
 
+@portrait: ~"only screen and (max-width: 1023px) and (min-width: 768px)";
 @smartphones: ~"only screen and (max-width: 767px)";
 @smallphones: ~"only screen and (max-width: 360px)";
 
@@ -331,6 +332,10 @@ header{
 
 		@media @smartphones{
 			width:~"calc(100% - 50px)";
+		}
+
+		@media @portrait{
+			width:~"calc(33.333% - 30px)";
 		}
 
 		.catalog-item-top{

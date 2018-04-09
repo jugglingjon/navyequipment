@@ -380,6 +380,9 @@ function loadDetails(id){
 // ====================================
 
 $(document).ready(function(){
+	
+	//implement fastclick
+	FastClick.attach(document.body);
 
 	//load items json, initialize catalog
 	$.getJSON('items.json',function(data){
