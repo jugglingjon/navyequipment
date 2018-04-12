@@ -10,7 +10,11 @@ var $data,
 	$globalFadeTime=400,
 	$currentQuiz=0,
 	$currentItem,
-	$currentAnswers=[];
+	$currentAnswers=[],
+	$favorites=[],
+	$history=[],
+	$version='1.0',
+	$namespace='netc-equipment-v'+$version;
 
 
 // ====================================
@@ -79,9 +83,25 @@ function populateCatalog(){
 	$.get('template-catalog.html',function(template){
 		var rendered=Mustache.render(template,$data);
 		$('.catalog').empty().html(rendered);
-		//$('.found-options').randomize('.found-option');
+		$.each($favorites,function(){
+			$('.catalog-item[data-index='+this+']').addClass('item-favorite');
+		});
 
-		$('.catalog').isotope();
+		$.each($history,function(index){
+			var currentHistory=$history.length-index;
+			$('.catalog-item[data-index='+this+']').attr('data-history',currentHistory);
+		});
+
+		$('.catalog').isotope({
+			getSortData:{
+				history: function(elem){
+					if($(elem).attr('data-history')){
+						return parseInt($(elem).attr('data-history'));
+					}
+
+				}
+			},
+		});
 	});
 }
 
@@ -99,14 +119,19 @@ function populateCategoriesFilter(){
 function filterCatalog(){
 	var alltrue=false;
 	$('.catalog').isotope({
+		
 		filter: function(){
-			console.log($('.filter-category').val(),$(this).find('.catalog-item-category').text()===$('.filter-category').val());
+			//console.log($('.filter-category').val(),$(this).find('.catalog-item-category').text()===$('.filter-category').val());
 			if($('.filter-search-box').val() && !$(this).has(':containsIN('+$('.filter-search-box').val()+')').length){
 				alltrue = false;
 			}
 			else if($('#catalog-set-favorites').is(':checked') && !$(this).hasClass('item-favorite')){
 				alltrue = false;
-				console.log(alltrue);
+				//console.log(alltrue);
+			}
+			else if($('#catalog-set-history').is(':checked') && !$(this).attr('data-history')){
+				alltrue = false;
+				//console.log(alltrue);
 			}
 			else if($('.filter-category').val() && $(this).find('.catalog-item-category').text()!=$('.filter-category').val()){
 				alltrue = false;
@@ -117,6 +142,13 @@ function filterCatalog(){
 			return alltrue;
 		}
 	});
+
+	if($('#catalog-set-history').is(':checked')){
+		$('.catalog').isotope('updateSortData').isotope({
+			sortBy: 'history'		
+		});
+	}
+
 }
 
 
@@ -384,6 +416,14 @@ $(document).ready(function(){
 	//implement fastclick
 	FastClick.attach(document.body);
 
+	if(localStorage[$namespace+'-favorites']){
+		$favorites=JSON.parse(localStorage[$namespace+'-favorites']);
+	}
+
+	if(localStorage[$namespace+'-history']){
+		$history=JSON.parse(localStorage[$namespace+'-history']);
+	}
+
 	//load items json, initialize catalog
 	$.getJSON('items.json',function(data){
 		$data=data;
@@ -399,6 +439,20 @@ $(document).ready(function(){
 	
 	//when catalog item clicked
 	$('.catalog').on('click','.catalog-item',function(){
+		if($history.indexOf($(this).attr('data-index'))!=-1){
+			$history.splice($history.indexOf($(this).attr('data-index')),1);
+		}
+
+		$history.push($(this).attr('data-index'));
+		console.log($history);
+		$('.catalog-item').removeAttr('data-history');
+		
+		$.each($history,function(index){
+			var currentHistory=$history.length-index;
+			$('.catalog-item[data-index='+this+']').attr('data-history',currentHistory);
+		});
+		localStorage[$namespace+'-history']=JSON.stringify($history);
+		
 		loadDetails($(this).attr('data-index'));
 	});
 
@@ -420,6 +474,14 @@ $(document).ready(function(){
 	//catalog item favorite
 	$('.catalog').on('click','.catalog-item-favorite',function(event){
 		$(this).closest('.catalog-item').toggleClass('item-favorite');
+		$favorites=[];
+		$('.catalog-item').each(function(){
+			if($(this).hasClass('item-favorite')){
+				$favorites.push(parseInt($(this).attr('data-index')));
+			}
+		});
+		localStorage[$namespace+'-favorites']=JSON.stringify($favorites);
+
 		filterCatalog();
 		event.stopPropagation();
 		return false;
