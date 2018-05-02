@@ -411,6 +411,12 @@ function loadDetails(id){
 // 				^EVENTS
 // ====================================
 
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    StatusBar.hide();
+}
+
+
 $(document).ready(function(){
 	
 	//implement fastclick
