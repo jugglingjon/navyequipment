@@ -12,15 +12,13 @@
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
 
-    <plugin name="cordova-plugin-statusbar"  source="npm"/>
-
-    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+    <edit-config file="*-Info.plist" target="UIStatusBarHidden" mode="merge">
         <true/>
-    </gap:config-file>
-
-    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+    </edit-config>
+    <edit-config file="*-Info.plist" target="UIViewControllerBasedStatusBarAppearance" mode="merge">
         <false/>
-    </gap:config-file>
+    </edit-config>
+
 
 
     <platform name="ios">
