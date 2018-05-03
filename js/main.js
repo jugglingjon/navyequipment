@@ -411,12 +411,12 @@ function loadDetails(id){
 // 				^EVENTS
 // ====================================
 
-// document.addEventListener("deviceready", onDeviceReady, false);
-// function onDeviceReady() {
-//     console.log(statusBar);
-//     StatusBar.hide();
-//     console.log(statusBar);
-// }
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(statusBar);
+    StatusBar.hide();
+    console.log(statusBar);
+}
 
 
 $(document).ready(function(){
