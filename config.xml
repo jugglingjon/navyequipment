@@ -11,8 +11,10 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="permissions" value="none" />
+    <preference name="webviewbounce" value="false" />
 
-    <plugin name="cordova-plugin-statusbar"  source="npm"/>
+    <gap:plugin name="cordova-plugin-statusbar" source="npm" version="2.2.0" />
 
     <gap:config-file platform="ios" parent="UIStatusBarHidden">
         <true/>
