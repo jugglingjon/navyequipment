@@ -652,7 +652,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 		if ( scope.enabled === false ) return;
 
-		event.preventDefault();
+		//event.preventDefault();
 
 		if ( event.button === scope.mouseButtons.ORBIT ) {
 
@@ -695,7 +695,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 		if ( scope.enabled === false ) return;
 
-		event.preventDefault();
+		//event.preventDefault();
 
 		if ( state === STATE.ROTATE ) {
 
@@ -738,7 +738,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 		if ( scope.enabled === false || scope.enableZoom === false || ( state !== STATE.NONE && state !== STATE.ROTATE ) ) return;
 
-		event.preventDefault();
+		//event.preventDefault();
 		event.stopPropagation();
 
 		handleMouseWheel( event );
@@ -810,7 +810,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 		if ( scope.enabled === false ) return;
 
-		event.preventDefault();
+		//event.preventDefault();
 		event.stopPropagation();
 
 		switch ( event.touches.length ) {
@@ -864,7 +864,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	function onContextMenu( event ) {
 
-		event.preventDefault();
+		//event.preventDefault();
 
 	}
 
