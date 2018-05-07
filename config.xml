@@ -4,11 +4,11 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.bah.navyequipment"
         versionCode = "10" 
-        version     = "1.1" >
+        version     = "1.2" >
 
-    <name>Equipment Explorer</name>
+    <name>US Navy DC Gear</name>
     <description>
-        Equipment Explorer
+        US Navy DC Gear
     </description>
 
 
