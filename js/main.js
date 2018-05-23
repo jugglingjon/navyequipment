@@ -13,7 +13,7 @@ var $data,
 	$currentAnswers=[],
 	$favorites=[],
 	$history=[],
-	$version='1.2',
+	$version='1.3',
 	$namespace='netc-equipment-v'+$version;
 
 
